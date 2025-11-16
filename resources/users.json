@@ -1,0 +1,194 @@
+[
+  {
+    "firstname": "Oscar",
+    "lastname": "Littel",
+    "email": "nafisf0263602@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "7862 Heidenreich Field"
+  },
+  {
+    "firstname": "Josefa",
+    "lastname": "Schulist",
+    "email": "nafisf0269714@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "706 Hand Fall"
+  },
+  {
+    "firstname": "Buster",
+    "lastname": "Champlin",
+    "email": "nafisf0262907@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "2053 The Lane"
+  },
+  {
+    "firstname": "Colin",
+    "lastname": "Blanda",
+    "email": "nafisf0264953@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "493 Renner River"
+  },
+  {
+    "firstname": "Gus",
+    "lastname": "Mohr",
+    "email": "nafisf0268310@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "600 Moore Mountains"
+  },
+  {
+    "firstname": "Maximillian",
+    "lastname": "Grant",
+    "email": "nafisf0267686@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "473 Effertz Spur"
+  },
+  {
+    "firstname": "Sydnee",
+    "lastname": "Green",
+    "email": "nafisf0266220@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "6415 Kiehn Freeway"
+  },
+  {
+    "firstname": "Nick",
+    "lastname": "Lemke",
+    "email": "nafisf0263997@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "69380 Cielo Ports"
+  },
+  {
+    "firstname": "Melba",
+    "lastname": "Yundt",
+    "email": "nafisf0266243@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "66817 Brenda Villages"
+  },
+  {
+    "firstname": "Ryley",
+    "lastname": "Pacocha",
+    "email": "nafisf0265626@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "96199 Quitzon Lights"
+  },
+  {
+    "firstname": "Quinton",
+    "lastname": "Gulgowski",
+    "email": "nafisf0265863@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "117 Bath Street"
+  },
+  {
+    "firstname": "Salvatore",
+    "lastname": "Balistreri",
+    "email": "nafisf0261804@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "9234 Woodlands Road"
+  },
+  {
+    "firstname": "Julio",
+    "lastname": "Hodkiewicz",
+    "email": "nafisf0262274@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "9048 Kyler Manors"
+  },
+  {
+    "firstname": "Garett",
+    "lastname": "Mitchell",
+    "email": "nafisf0263694@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "624 Deondre Lock"
+  },
+  {
+    "firstname": "Eulalia",
+    "lastname": "Hettinger",
+    "email": "nafisf0264626@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "29778 Willa Branch"
+  },
+  {
+    "firstname": "Amos",
+    "lastname": "Fisher",
+    "email": "nafisf0263394@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "91774 Bridgette Pine"
+  },
+  {
+    "firstname": "Lily",
+    "lastname": "Wiza",
+    "email": "nafisf0265679@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "87416 S 8th Street"
+  },
+  {
+    "firstname": "Geo",
+    "lastname": "West",
+    "email": "nafisf0265824@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "135 Philip Ports"
+  },
+  {
+    "firstname": "Karlee",
+    "lastname": "Blanda",
+    "email": "nafisf0262320@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "4680 E Cedar Street"
+  },
+  {
+    "firstname": "Caterina",
+    "lastname": "West",
+    "email": "nafisf0266573@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "4104 Shad Crossroad"
+  },
+  {
+    "firstname": "Felicity",
+    "lastname": "Buckridge",
+    "email": "nafisf0262399@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "5833 Torrance Divide"
+  },
+  {
+    "firstname": "Martin",
+    "lastname": "Gutkowski",
+    "email": "nafisf0261764@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "3833 Brady Centers"
+  },
+  {
+    "firstname": "Jeremy",
+    "lastname": "Rowe",
+    "email": "nafisf0264279@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "576 Mateo Lodge"
+  },
+  {
+    "firstname": "Bryce",
+    "lastname": "Borer",
+    "email": "nafisf026+6767@gmail.com",
+    "password": "1234",
+    "phone": "0132999999",
+    "address": "7844 Jabari Extension"
+  }
+]
