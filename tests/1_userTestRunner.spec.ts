@@ -6,6 +6,7 @@ import { faker } from "@faker-js/faker";
 import { generateRandomNumber, saveJsonData, getLastUser,saveTableData } from "../utils/utils";
 import { AddItem } from '../page/AddItem';
 import { readLatestEmail } from "../services/Gmail_data_read.service";
+import path from 'path';
 let page: Page
 
 test.beforeAll(async ({ browser }) => {
@@ -93,5 +94,48 @@ saveTableData(tableText, "./resources/tableData.txt");
 test("logout user", async () =>{
 await page.getByRole('button', { name: 'account of current user' }).click();
 await page.getByRole('menuitem', { name: 'Logout' }).click();
-    await page.pause();
+
+})
+
+test("reset password from email",async()=>{
+  await page.goto("https://dailyfinance.roadtocareer.net") 
+ const userData=getLastUser("./resources/users.json")
+  await page.goto("https://dailyfinance.roadtocareer.net/forgot-password")
+  await page.getByRole('textbox', { name: 'Email' }).fill(userData.email)
+  await page.getByRole('button', { name: 'SEND RESET LINK' }).click();
+  await page.waitForTimeout(5000);
+let latestEmail = await readLatestEmail(); 
+const resetLinkMatch = latestEmail.match(/https:\/\/dailyfinance\.roadtocareer\.net\/reset-password\?token=\w+/);
+if (!resetLinkMatch) throw new Error("Reset link not found in email");
+
+const resetLink = resetLinkMatch[0];
+await page.goto(resetLink);
+  await page.getByRole('textbox', { name: 'New Password' }).fill("abcd1234")
+  await page.getByRole('textbox', { name: 'Confirm Password' }).fill("abcd1234")
+  await page.getByRole('button', { name: 'RESET PASSWORD' }).click();
+  await expect(page).toHaveURL(/https:\/\/dailyfinance\.roadtocareer\.net\/login/);
+  
+})
+
+
+
+test("upload user profile image",async()=>{
+await page.goto('https://dailyfinance.roadtocareer.net');
+ await page.getByRole('textbox', { name: 'Email' }).fill('nafisf026+9463@gmail.com');
+ await page.getByRole('textbox', { name: 'Password' }).fill('1234');
+await page.getByRole('button', { name: 'Login' }).click();
+
+  await page.getByRole('button', { name: 'account of current user' }).click();
+  await page.getByRole('menuitem', { name: 'Profile' }).click();
+  await page.getByRole('button', { name: 'EDIT' }).click();
+   const filePath = path.resolve("C:/Users/Asus/Desktop/2025-11-16at10.33.23_56f2f900.jpg");
+  await page.getByRole('button', { name: 'Choose File' }).setInputFiles(filePath);
+  page.once('dialog', dialog => {
+    console.log(`Dialog message: ${dialog.message()}`);
+    dialog.dismiss().catch(() => {});
+  });
+  await page.getByRole('button', { name: 'UPLOAD IMAGE' }).click();
+  
+
+  await page.pause()
 })
