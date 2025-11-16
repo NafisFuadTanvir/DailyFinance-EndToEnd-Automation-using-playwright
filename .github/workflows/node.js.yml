@@ -6,10 +6,9 @@ on:
       - main
 
   schedule:
-    - cron: "59 23 * * 5"   # Every Friday 11:59 PM UTC
-                            # (Bangladesh time would be Saturday 5:59 AM)
+    - cron: "59 23 * * 5"  
 
-  workflow_dispatch:        # Allow manual run from Actions tab
+  workflow_dispatch:
 
 jobs:
   test:
