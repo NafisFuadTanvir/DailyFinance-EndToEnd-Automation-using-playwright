@@ -41,3 +41,11 @@ Node.js, Playwright, TypeScript, Page Object Model (POM),Gmail Api service,Faker
 i) Ensure that the profile image for upload is ≤100KB.
 
 ii) Emails are read programmatically using the Gmail service for verification
+
+## Result
+<img width="1467" height="712" alt="image" src="https://github.com/user-attachments/assets/8d985df8-6229-4865-abc2-b8f687da2c02" />
+
+## Vedio Demonastration
+
+https://drive.google.com/drive/folders/12HFpJ46QrYAbKSZloLzMRZu9K6_8Luky?dmr=1&ec=wgc-drive-globalnav-goto
+
